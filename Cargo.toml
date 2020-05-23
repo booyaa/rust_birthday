@@ -2,10 +2,7 @@
 name = "rust_birthday"
 version = "0.1.0"
 authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
-<<<<<<< HEAD
 homepage = "https://github.com/booyaa/rust_birthday"
-=======
->>>>>>> b9ffe939ee3654080b5c41e89b745a59daced75b
 repository = "https://github.com/booyaa/rust_birthday"
 description = "A library for determing if it's Rust's birthday (15th of May)"
 readme = "README.md"
