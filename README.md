@@ -2,7 +2,7 @@
 
 A library for determining if it's Rust's birthday (15th of May).
 
-## Usage
+## usage
 
 This crate is [on crates.io](https://crates.io/crates/rust_birthday) and can be
 used by adding `rust_birthday` to the dependencies in your project's `Cargo.toml`.
@@ -18,7 +18,13 @@ and this to your crate root:
 extern crate rust_birthday;
 ```
 
-## Licence / Copyright
+## changelog
+
+### v0.1.0
+
+- initial release
+
+## licence / copyright
 
 License is WTFPL v2.0.
 
