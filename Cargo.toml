@@ -1,0 +1,14 @@
+[package]
+name = "rust_birthday"
+version = "0.1.0"
+authors = ["Mark Sta Ana <booyaabooyaabooyaa@gmail.com>"]
+repository = "https://github.com/booyaa/rust_birthday"
+description = "A library for determing if it's Rust's birthday (15th of May)"
+readme = "README.md"
+license-file = "LICENSE.txt"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.11"
