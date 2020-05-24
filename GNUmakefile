@@ -1,4 +1,4 @@
-all: build lint test
+all: build test format lint 
 
 build:
 	cargo build
@@ -8,4 +8,7 @@ test:
 
 lint:
 	cargo check
+	cargo fmt
+
+format:
 	cargo clippy
