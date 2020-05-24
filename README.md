@@ -1,5 +1,12 @@
 # rust_birthday
 
+[![crates.io](https://img.shields.io/crates/v/cargo-cake.svg)](https://crates.io/crates/rust_birthday)
+![github actions](https://github.com/booyaa/rust_birthday/workflows/Rust%20CI/badge.svg)
+![crates.io downloads](https://img.shields.io/crates/d/rust_birthday)
+![github issues open](https://img.shields.io/github/issues/booyaa/rust_birthday)
+![github pull requests open](https://img.shields.io/github/issues-pr/booyaa/rust_birthday)
+![github license](https://img.shields.io/github/license/booyaa/rust_birthday)
+
 A library for determining if it's Rust's birthday (15th of May).
 
 ## usage
