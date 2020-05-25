@@ -7,12 +7,11 @@
 ![github pull requests open](https://img.shields.io/github/issues-pr/booyaa/rust_birthday)
 ![github license](https://img.shields.io/github/license/booyaa/rust_birthday)
 
-A library for determining if it's Rust's birthday (15th of May).
+A crate for determining if it's Rust's birthday (15th of May).
 
 ## usage
 
-This crate is [on crates.io](https://crates.io/crates/rust_birthday) and can be
-used by adding `rust_birthday` to the dependencies in your project's `Cargo.toml`.
+This crate is [crates.io](https://crates.io/crates/rust_birthday) and can be used by adding `rust_birthday` to the dependencies in your project's `Cargo.toml`.
 
 ```toml
 [dependencies]
@@ -25,7 +24,19 @@ and this to your crate root:
 extern crate rust_birthday;
 ```
 
+### example
+
+```rust
+use rust_birthday::*;
+let mut rust_birthday = RustBirthday::new();
+println!("{:?}", rust_birthday.is_now());
+```
+
 ## changelog
+
+### v0.1.1
+
+- add documentation to the crate
 
 ### v0.1.0
 
